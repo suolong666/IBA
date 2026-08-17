@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.local
+
+# Training checkpoints, pretrained models, and experiment outputs
+/finetuned_ckpt/
+/finetuned_ckpt_LETTER/
+/results/
+/models/
+wandb/
+runs/
+outputs/
+logs/
+checkpoints/
+
+# Large model and training artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Generated reports and plots
+*.log
+*.tmp
+*.bak
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db

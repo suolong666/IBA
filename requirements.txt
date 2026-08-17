@@ -1,0 +1,16 @@
+# Install the PyTorch build that matches your CUDA version first:
+# https://pytorch.org/get-started/locally/
+torch>=2.0
+
+# Model training and inference
+transformers>=4.30,<5
+accelerate>=0.20
+sentencepiece>=0.1.99
+safetensors>=0.3
+protobuf>=3.20
+
+# Data processing and utilities
+numpy>=1.23
+pandas>=1.5
+tqdm>=4.64
+matplotlib>=3.6
