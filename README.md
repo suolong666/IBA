@@ -1,6 +1,6 @@
 # IBA: Information-Gain Budget Allocation
 
-IBA is a two-stage sequential recommendation framework based on semantic IDs.
+This repository provides the implementation of **IBA**, a latent-reasoning framework for semantic ID-based generative recommendation. IBA treats latent refinement steps as a limited computation budget and allocates them across semantic ID positions according to position-wise information-gain and user-specific refinement gains.
 
 ## Setup
 
@@ -61,12 +61,3 @@ bash IBA/test.sh
 
 Set CKPT_PATH in IBA/test.sh to the checkpoint directory to evaluate.
 
-## Citation
-
-~~~bibtex
-@article{yang2026where,
-  title={Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Generative Recommendation},
-  author={Yang, Shangxin and Gao, Min and Wang, Zongwei and Yu, Junliang},
-  year={2026}
-}
-~~~
